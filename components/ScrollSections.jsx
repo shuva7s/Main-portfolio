@@ -59,13 +59,13 @@ const ScrollSections = () => {
         ref={sectionRef}
         className="flex flex-col md:flex-row py-0 md:py-[3vh]"
       >
-        <section className="w-screen md:w-[98vw] grow-0 shrink-0 min-h-[94vh] bg-red-500/20 flex justify-center items-center">
+        <section className="w-screen md:w-[98vw] grow-0 shrink-0 min-h-[94vh] bg-green-500/10 flex justify-center items-center">
           B
         </section>
-        <section className="w-screen md:w-[98vw] grow-0 shrink-0 min-h-[94vh] bg-blue-500/20 flex justify-center items-center">
+        <section className="w-screen md:w-[98vw] grow-0 shrink-0 min-h-[94vh] bg-green-500/20 flex justify-center items-center">
           C
         </section>
-        <section className="w-screen md:w-[98vw] grow-0 shrink-0 min-h-[94vh] bg-green-500/20 flex justify-center items-center">
+        <section className="w-screen md:w-[98vw] grow-0 shrink-0 min-h-[94vh] bg-green-500/30 flex justify-center items-center">
           D
         </section>
       </div>
